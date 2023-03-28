@@ -19,18 +19,69 @@
 
 <body>
     <div class="main-container">
+        <!-- HEADER -->
         <header class="header-container">
             <div><img class="logo" src="images/logo/Booki.png" alt="Logo Booki"></div>
-            <nav class="nav">
-                <a href="#Hebergements">Hébergements</a> 
-                 <a href="#Activites">Activités</a>
+            <nav class="nav">             
+                    <a class="border" href="#Hebergements">Hébergements</a>
+                    <a class ="border" href="#Activites">Activités</a>  
             </nav>
         </header>
+        <!-- HEADER -->
         <main>
-            <div class="phrase-accueil">
-              <p>Trouvez votre hébergement pour des vacances de rêve <br> <span class="seconde-phrase">En plein centre-ville ou en pleine nature</span></p>
-              
-            </div>
+            <!--SEARCH-->
+            <section class="search-bar">
+                <h1>Trouvez votre hebergements pour des vacances de reve</h1>
+                <h2>En plein centre-ville ou en pleine nature</h2>
+                <div class="map">
+                    <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                    <form action="" method="get" >
+                        <input class="city" type="search" placeholder="Marseille, France">
+                    </form>
+                    <button class="search">Rechercher</button>
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                </div>
+            </section>
+
+            <!-- FILTERS -->
+            <section class="filters-section"> 
+                <h3>Filtres</h3>
+                <div class="filters-icon">
+                    <div class="filters">
+                        <div class="icon">
+                            <i class="fa-solid fa-money-bill-wave" style="color: #0065fc;"></i>
+                        </div>
+                            <p>Economique</p>
+                    </div>
+                    <div class="filters">
+                        <div class="icon">
+                            <i class="fa-solid fa-person" style="color: #0065fc;"></i>
+                        </div>
+                            <p>Familial</p>
+                    </div>
+                    <div class="filters">
+                        <div class="icon">
+                            <i class="fa-solid fa-heart" style="color: #0065fc;"></i>
+                        </div>
+                            <p>Romantique</p>
+                    </div>
+                    <div class="filters">
+                        <div class="icon">
+                            <i class="fa-solid fa-fire" style="color: #0065fc;"></i>
+                        </div>
+                            <p>Nos pépites</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- INFOS -->
+            <section class="countainer-info">
+                <div class="info">
+                    <div class="logo-info"><i class="fa-solid fa-info" style="color: #0065fc;"></i></div>
+                    <h2>Plus de 500 logements sont disponibles dans cette ville</h2>
+                </div>
+             </section>
+
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
 
