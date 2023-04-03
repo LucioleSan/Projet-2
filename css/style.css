@@ -54,35 +54,50 @@ body {
 }
 
 /*Header*/
-.header-container{
+
+header{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 25px;
-    }
+    align-items: center;
+}
+
 .logo{
     height: 25px;
-    margin-top: 30px;
 }
 
-.nav{
-padding-top: 16px;
-margin-right: 182px;
-text-decoration: none;
-color: black;
-margin-right: 50px;
+header nav {
+    width: 240px;
 }
 
-.border{
-    margin-left: 80px;
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+header li{
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 3px solid transparent;
+}
+
+a{
+    text-decoration: none;
+    color: black;
     
 }
 
-.border:hover{
-    color: #0065FC;
-    border-top: 3px solid blue;
-    padding-top: 16px;
+header li:hover {
+    border-top: 3px solid var(--main-color);
 }
+
+header li:hover a{
+    color: var(--main-color);
+}
+
 
 /****** Search Bar ***********/
 
