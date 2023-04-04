@@ -402,13 +402,14 @@ h3{
   
   .section-footer{
     flex: 1;
-    margin-left: 40px;  
+    margin-left: 40px;
   }
   
-  bloc-footer h4{
+   footer p{
     font-weight: 700;
     font-size: 18px;
     line-height: 50px;
+    padding-left: 0;
   }
   footer a{
     line-height: 30px;
@@ -417,6 +418,7 @@ h3{
 
   footer ul{
     list-style-type: none;
+    padding-left: 0;
   }
 
 
