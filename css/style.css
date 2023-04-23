@@ -526,7 +526,7 @@ body{
     .border-activity{
         margin-bottom: 40px;
       }
-      
+
       .filters {        
         margin-top: 1px;
         
@@ -594,6 +594,8 @@ body{
         justify-content: center;
         align-items: center;
         font-size: 115%;
+        margin-top: -1px;
+        
       }
     
       .button-mobile :hover{
@@ -601,9 +603,12 @@ body{
         cursor: pointer;
       }
 
-      ::placeholder {
-        font-size: 12px;
-      }
+     
+
+
+     .map{
+        width: 125%;
+     }
 
       /****** FILTERS ******/
 
