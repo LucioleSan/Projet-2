@@ -429,7 +429,7 @@ footer{
   
   .section-footer{
     flex: 1;
-    margin-left: 40px;
+    padding-left: 40px;
   }
   
    footer p{
@@ -701,11 +701,11 @@ footer{
       }
     
       .populaires {
-        border-radius: none ;
+        border-radius: 0;
         width: 100%;
         border-radius: 0px;
         margin-left: 0px;
-        padding: 30px 2%;
+        
       }
 
      .populaires-cards{
